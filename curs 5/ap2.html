@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ap 2 curs 5</title>
+    <style>
+        /*smartphones (portrait and landscape) --------*/
+        @media (max-width: 640px) {
+            .mob{
+                display: block;
+            }
+            div:not(.mob){
+                display: none;
+            }
+            
+        }
+        /*ipads (portrait and landscape) --------*/
+        @media (min-width:641px)and (max-width:768px) {
+            .tab{
+            display: block;
+            }
+            div:not(.tab){
+                display: none;
+            }
+
+        }
+        /*desktops and laptops --------*/
+        @media (min-width :769px)  and (max-width:1223px){
+            .lap{
+                display: block;
+            }
+            div:not(.lap){
+                display: none;
+            }
+        }
+        /*large screens ---------*/
+       @media (min-width:1224px){
+            .des{
+           display: block;
+       }    
+       div:not(.des)  {
+           display: none;
+       }     
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="des">
+        <h1>suntem pe desktop</h1>
+        <img src="../curs 5/download balon.jfif" width="100%" alt="">
+    </div>
+    <div class="lap">
+        <h1>suntem pe laptop</h1>
+        <img src="../curs 5/download inima.jfif" width="100%" alt="">
+
+    </div>
+    <div class="tab">
+        <h1>suntem pe tableta</h1>
+        <img src="../curs 5/download wind.jfif" width="100%" alt="">
+
+    </div>
+    <div class="mob">
+        <h1>suntem pe mobil</h1>
+        <img src="../curs 5/download luna.jfif" width="100%" alt="">
+
+    </div>
+        </body>
+</html>

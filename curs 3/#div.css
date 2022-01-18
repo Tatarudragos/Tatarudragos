@@ -1,0 +1,16 @@
+div {
+    width: 50%;
+    border: solid 2px red;
+}
+.redcolor { 
+    color:red;
+}
+.h1size {
+    font-size: 30px;
+}
+#h1color {
+    color: blueviolet;
+}
+h1{
+    color: green; !important;
+}
